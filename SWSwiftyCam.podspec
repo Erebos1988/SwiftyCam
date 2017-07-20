@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyCam'
-  s.version          = '2.4.0'
-  s.summary          = 'A Simple, Snapchat inspired camera Framework written in Swift'
+  s.version          = '2.4.1'
+  s.summary          = 'A Fork of Swiftycam'
   s.ios.deployment_target = '8.0'
 
 
@@ -20,14 +20,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
-A drop in Camera View Controller for capturing photos and videos from one AVSession. Written in Swift.
+ios10 additions for SwiftyCam
                      DESC
 
-  s.homepage         = 'https://github.com/Awalz/SwiftyCam'
+  s.homepage         = 'https://github.com/Erebos1988/SwiftyCam'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'BSD', :file => 'LICENSE' }
   s.author           = { 'Andrew Walz' => 'andrewjwalz@gmail.com' }
-  s.source           = { :git => 'https://github.com/Awalz/SwiftyCam.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Erebos1988/SwiftyCam.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
