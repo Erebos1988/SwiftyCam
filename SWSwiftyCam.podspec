@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 SWSwiftyCam, adds iOS 10 support, and lock video orientation support.
                        DESC
 
-  s.homepage         = 'https://github.com/sascha/SWSwiftyCam'
+  s.homepage         = 'https://github.com/Erebos1988/SwiftyCam'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sascha' => 'saschawilkening@gmail.com' }
-  s.source           = { :git => 'https://github.com/sascha/SWSwiftyCam.git', :tag => s.version.to_s }
+  s.author           = { 'Sascha Wilkening' => 'saschawilkening@gmail.com' }
+  s.source           = { :git => 'https://github.com/Erebos1988/SwiftyCam.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'SWSwiftyCam/Classes/**/*'
+  s.source_files = 'Source/**/*'
   
 end
