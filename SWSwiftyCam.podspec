@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SwiftyCam.podspec' to ensure this is a
+# Be sure to run `pod lib lint SWSwiftyCam.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,20 +8,25 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SWSwiftyCam'
-  s.version          = '2.4.1'
-  s.summary          = 'A Fork of Swiftycam'
+  s.version          = '1.0'
+  s.summary          = 'A fork of SwiftyCam'
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.description      = <<-DESC
+SWSwiftyCam, adds iOS 10 support, and lock video orientation support.
+                       DESC
+
+  s.homepage         = 'https://github.com/sascha/SWSwiftyCam'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'sascha' => 'saschawilkening@gmail.com' }
+  s.source           = { :git => 'https://github.com/sascha/SWSwiftyCam.git', :tag => s.version.to_s }
+
   s.ios.deployment_target = '8.0'
-
-s.description      = <<-DESC
-ios10 additions for SwiftyCam
-                     DESC
-
-  s.homepage         = 'https://github.com/Erebos1988/SwiftyCam'
-  s.license          = { :type => 'BSD', :file => 'LICENSE' }
-  s.author           = { 'Andrew Walz' => 'andrewjwalz@gmail.com' }
-  s.source           = { :git => 'https://github.com/Erebos1988/SwiftyCam.git', :tag => s.version.to_s }
-
-  s.ios.deployment_target = '8.0'
-  s.source_files = 'Source/**/*'
-
+  s.source_files = 'SWSwiftyCam/Classes/**/*'
+  
 end
