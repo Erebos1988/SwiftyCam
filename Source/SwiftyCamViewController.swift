@@ -316,7 +316,7 @@ open class SwiftyCamViewController: UIViewController {
     /// ViewDidLayoutSubviews() Implementation
     
     private func updatePreviewLayer(layer: AVCaptureConnection, orientation: AVCaptureVideoOrientation) {
-        if lockVideoOrientation{
+        if !lockVideoOrientation{
             layer.videoOrientation = orientation
         }
         
